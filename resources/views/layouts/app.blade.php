@@ -118,12 +118,12 @@
 
                     @guest
                             @if (Route::has('login'))
-                                <li class="nav-item"><a href="{{('login')}}" class="nav-link">login</a></li>
+                                <li class="nav-item"><a href="{{route('login')}}" class="nav-link">login</a></li>
                             @endif
 
                             @if (Route::has('login'))
 
-                            <li class="nav-item"><a href="{{('register')}}" class="nav-link">register</a></li>
+                            <li class="nav-item"><a href="{{route('register')}}" class="nav-link">register</a></li>
                             @endif
                     @else
                             <li class="nav-item dropdown">
